@@ -54,7 +54,7 @@ const updateContact = (req,res) =>{
     // if(lastname) users.lstname = lastname
     // if(id) users.id = ID
 
-    res.send(`it is for update contacts ${id} has been updated`)
+    res.send(`it is for update contacts  has been updated`)
     
 }
 

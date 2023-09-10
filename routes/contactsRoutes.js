@@ -7,17 +7,17 @@ const {createContact, getContact, getContacts, deleteContact, updateContact} = r
 router.get('/contacts', getContacts);
 
 // get route for one specific user
-router.get("/:id", getContact)
+router.get("/contact/:id", getContact)
 
 //post user
-router.post('/',  createContact);
+router.post('/postcontact',  createContact);
 
 // delete Route
 
-router.delete("/:id" ,deleteContact)
+router.delete("/deletecontact/:id" ,deleteContact)
 
 // Patch Route 
-router.patch("/:id", updateContact )
+router.patch("/updatecontact/:id", updateContact )
 
 
 module.exports = router;
