@@ -29,6 +29,7 @@ const getContacts = (req,res) =>{
 
 // create user post contact
 const createContact = (req,res) =>{
+    console.log("request body is ",req.body)
     // const user = req.body
     // users.push(user)
     // res.send("new record added to database")

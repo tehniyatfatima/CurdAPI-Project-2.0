@@ -7,7 +7,6 @@ const App = express();
 const port = process.env.PORT || 5000;
 
 App.use(express.json())
-//App.use('/contacts', contactsRoutes)
 App.use(contactsRoutes)
 
 
